@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // 컴파일된 JavaScript의 목표 버전
+    "module": "commonjs", // 모듈 시스템 (commonjs, es6 등)
+    "jsx": "react", // JSX 사용 여부 (react 또는 preserve)
+    "outDir": "./dist", // 컴파일된 파일의 출력 디렉토리
+    "strict": true, // 엄격한 타입 체크 사용 여부
+    "esModuleInterop": true // ES 모듈 및 CommonJS 모듈 간 상호 운용성
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"], // 컴파일할 파일 및 디렉토리 지정
+  "exclude": ["node_modules"] // 제외할 파일 및 디렉토리 지정
+}
